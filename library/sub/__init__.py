@@ -1,12 +1,6 @@
-from ..robot import getCurrentBot;
 
-class sub:
+from ..robot import bot;
 
-    bot = -1;
-
-    def __init__(self):
-        self.bot = getCurrentBot();
-        print(self.bot);
-
-    def getX(self):
-        return self.bot.getX();
+def sayHello(self):
+    print("Saying Hello From %d" % self.x);
+bot.sayHello = sayHello;
